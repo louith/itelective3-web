@@ -12,9 +12,7 @@
 * **_Product Inventory System_** <br/>
 
 ## About the Project
-**_Product Inventory System_**
-<p align="justify"> 
-will be created for the Department of Public Works and Highways (Region 9 - Zamboanga Peninsula). The purpose of the system is to keep tabs on sales, orders, deliveries, and inventory levels to ensure they know exactly what items they have available and the location in which they reside. It will encompass purchasing, inventory management, warehousing, sales orders, order fulfillment, distribution and customer service management. Purchasing is a very important component of an inventory information system. </p> <br/>
+A **_Product Inventory System_** <p align="justify"> will be created for the Department of Public Works and Highways (Region 9 - Zamboanga Peninsula). The purpose of the system is to keep tabs on sales, orders, deliveries, and inventory levels to ensure they know exactly what items they have available and the location in which they reside. It will encompass purchasing, inventory management, warehousing, sales orders, order fulfillment, distribution and customer service management. Purchasing is a very important component of an inventory information system. </p> <br/>
 
 ### Subsystems
 * Product Procurement Management System
