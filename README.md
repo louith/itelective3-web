@@ -16,6 +16,7 @@
 
 ### Subsystems
 * Product Procurement Management System
+* Delivery Management System
 * Warehouse Management System
 * Point-of-Sales System
 
