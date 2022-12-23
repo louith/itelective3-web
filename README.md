@@ -29,9 +29,9 @@
 ## Frameworks
 The whole system will be created with `FEAN` framework: <br/>
 <br/>
-<img src="https://miro.medium.com/max/1200/1*a2Da_CQHUsSKTCTRI2tYhQ.png" width="150" height="100">
+<img src="https://seeklogo.com/images/F/firestore-logo-3828671CC5-seeklogo.com.png" width="60" height="100">
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" width="210" height="85">
-<img src="https://www.vectorlogo.zone/logos/angular/angular-ar21.png" width="195" height="85">
+<img src="https://cdn.freebiesupply.com/logos/large/2x/angular-icon-logo-svg-vector.svg" width="80" height="100">
 <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.png" width="200" height="85">
 
 
