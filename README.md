@@ -12,7 +12,7 @@
 The whole system will be created with `FEAN` framework: <br/>
 <br/>
 <img src="https://miro.medium.com/max/1400/1*a2Da_CQHUsSKTCTRI2tYhQ.png" width="200" height="85">
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" width="150" height="85">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" width="180" height="85">
 <img src="https://www.vectorlogo.zone/logos/angular/angular-ar21.png" width="195" height="85">
 <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.png" width="200" height="85">
 
