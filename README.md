@@ -13,7 +13,7 @@
 * Warehouse Management System
 * Point-of-Sales System
 * Product Procurement Management System
-<img src="https://www.metacase.com/reports/17_135.gif">
+<img src="https://www.metacase.com/reports/17_135.gif" align="center">
 
 
 ## Frameworks
