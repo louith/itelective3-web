@@ -3,10 +3,10 @@
 `FEAN` `Firestore` `Express` `Angular` `Node`
 
 ## Table of Contents
-* [Project] (#project)
-* [About the Project] (#about-the-project)
-* [Subsystems] (#subsystems)
-* [Frameworks] (#frameworks)
+* [Project](#project)
+* [About the Project](#about-the-project)
+* [Subsystems](#subsystems)
+* [Frameworks](#frameworks)
 
 ## Project
 * **_Product Inventory System_** <br/>
