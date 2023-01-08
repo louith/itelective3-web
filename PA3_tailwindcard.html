@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Poppins&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                name: ['Poppins', 'sans-serif'],
+                others: ['Noto Sans TC', 'sans-serif']
+               }
+            }
+          }
+        }
+      </script>
+    <title>Card</title>
+</head>
+<body class="m-4 flex flex-col items-center">
+
+    <div class="w-2/5 h-fit bg-gradient-to-b from-pink-400 to-fuchsia-600 px-4 flex flex-col items-center ">
+        <div class="w-full h-full m-4 bg-fuchsia-700 shadow-lg rounded-3xl p-16">
+            <div class="h-36 w-36 border-8 border-slate-100 rounded-full mb-8 drop-shadow-2xl">
+                <img class="rounded-full object-cover" src="https://i.pinimg.com/originals/78/48/59/784859f365550965dd51514610f01d1e.jpg">
+                <!-- <img class="rounded-full object-cover" src="https://i.pinimg.com/564x/d4/74/b9/d474b97c0fd5eb91a7d937e944092729.jpg"> -->
+                <!-- <img class="rounded-full object-cover" src="assets/louithh.png"> -->
+            </div>
+            <h3 class="text-slate-100 text-2xl mb-4 font-others">UI / UX DESIGNER</h3>
+            <h3 class="text-slate-100 text-4xl font-bold font-name mb-4">Louise Lynne Seprado</h3>
+            <p class="text-slate-100 text-base mb-8 font-others">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eos ut deleniti. Animi, earum. Repudiandae?</p>
+            <div class="flex flex-row">
+                <a href="https://slack.com/">
+                    <button class="bg-slate-100 h-14 w-14 flex flex-col items-center p-4 rounded-full mr-2 hover:rounded-xl">
+                        <img 
+                        class="h-8 w-8 rounded-lg"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png">
+                    </button>
+                </a>
+
+                <a href="https://www.sketch.com/">
+                    <button class="bg-slate-100 h-14 w-14 flex flex-col items-center p-4 rounded-full mr-2 hover:rounded-xl">
+                        <img 
+                        class="h-8 w-8 rounded-lg"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/531px-Sketch_Logo.svg.png">
+                    </button>
+                </a>
+                
+                <a href="https://www.adobe.com/products/xd/pricing/free-trial.html">
+                    <button class="bg-slate-100 h-14 w-14 flex flex-col items-center p-4 rounded-full mr-2 hover:rounded-xl">
+                        <img 
+                        class="h-8 w-8 rounded-lg"
+                        src="https://www.svgrepo.com/show/303109/adobe-xd-logo.svg">
+                    </button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
