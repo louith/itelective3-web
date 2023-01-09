@@ -14,25 +14,40 @@
               fontFamily: {
                 name: ['Poppins', 'sans-serif'],
                 others: ['Noto Sans TC', 'sans-serif']
-               }
+               },
+
+               colors: {
+                'purp': {
+                    solid: '#AF4ECA',
+                    light: '#FF8BF4',
+                    mid: '#EE74ED',
+                    dark: '#E964F0',
+                    }
+                }
             }
+          
           }
         }
       </script>
     <title>Card</title>
 </head>
 <body class="m-4 flex flex-col items-center">
-
-    <div class="w-2/5 h-fit bg-gradient-to-b from-pink-400 to-fuchsia-600 px-4 flex flex-col items-center ">
-        <div class="w-full h-full m-4 bg-fuchsia-700 shadow-lg rounded-3xl p-16">
-            <div class="h-36 w-36 border-8 border-slate-100 rounded-full mb-8 drop-shadow-2xl">
+    
+    <!-- w-2/5 -->
+    <!-- gradient, outer div -->
+    <div class="w-full max-w-xl h-fit bg-gradient-to-b from-purp-light via-purp-mid to-purp-dark px-4 flex flex-col items-center">
+        <!-- inner violet div -->
+        <div class="w-full h-full m-4 bg-purp-solid shadow-lg rounded-3xl p-16">
+            <!-- div that stores profile pic -->
+            <div class="h-36 w-36 rounded-full border-8 border-white mb-8 shadow-lg">
                 <img class="rounded-full object-cover" src="https://i.pinimg.com/originals/78/48/59/784859f365550965dd51514610f01d1e.jpg">
                 <!-- <img class="rounded-full object-cover" src="https://i.pinimg.com/564x/d4/74/b9/d474b97c0fd5eb91a7d937e944092729.jpg"> -->
                 <!-- <img class="rounded-full object-cover" src="assets/louithh.png"> -->
             </div>
-            <h3 class="text-slate-100 text-2xl mb-4 font-others">UI / UX DESIGNER</h3>
-            <h3 class="text-slate-100 text-4xl font-bold font-name mb-4">Louise Lynne Seprado</h3>
-            <p class="text-slate-100 text-base mb-8 font-others">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eos ut deleniti. Animi, earum. Repudiandae?</p>
+            <h3 class="text-white text-2xl mb-4 font-others">UI / UX DESIGNER</h3>
+            <h3 class="text-white text-4xl font-bold font-name mb-4">Louise Lynne Seprado</h3>
+            <p class="text-white text-sm mb-8 font-others">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo illum dicta assumenda reiciendis. Repellendus, consequuntur.</p>
+            
             <div class="flex flex-row">
                 <a href="https://slack.com/">
                     <button class="bg-slate-100 h-14 w-14 flex flex-col items-center p-4 rounded-full mr-2 hover:rounded-xl">
